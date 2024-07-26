@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Whyte;
+  color: aliceblue;
+  overflow: hidden;
+}
+#main
+{
+  display: flex;
+  padding: 50px 50px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background: #000;
+  overflow-x: hidden;
+}
+#main h1
+{
+  font-size: 30px;
+  font-weight: 500;
+}
+#main .hello
+{
+  color: aliceblue;
+  font-size: 30px;
+}
+#full
+{
+  width: 40%;
+  height: 100vh;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  padding: 100px 50px;
+  margin-bottom: 10px;
+}
+#full h4
+{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+#full .hello2
+{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #000;
+}
